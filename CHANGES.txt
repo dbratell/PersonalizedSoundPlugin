@@ -1,0 +1,15 @@
+Version 0.5.1.0    2003-06-02
+-----------------------------------
+*FEATURE* Paths to files under the Miranda directory are stored relative. That
+          should make it possible to move Miranda (including the sound files)
+          without breaking the plugin.
+
+*BUGFIX*  The fallback sound was always the message sound, even when the event
+          was an URL or file.
+
+*BUGFIX*  Paths to files with space in them was quoted too many times. 
+
+
+Version 0.5.0.0    2003-06-02
+-----------------------------------
+First release. Functional but without rigorous testing.
